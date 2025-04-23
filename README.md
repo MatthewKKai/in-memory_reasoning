@@ -4,6 +4,7 @@
 ```
 pip install -r requirements.txt
 ```
+You may want to create two folders named model and dataset, putting your models under the model folder or gitting from HuggingFace, changing the path with config.py. Dataset can be put under dataset folder, we're using LongMemEval which you can download from https://github.com/xiaowu0162/LongMemEval/tree/main.
 ### Train
 ```
 torh run python train.py
